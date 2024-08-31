@@ -1,0 +1,11 @@
+Spanning Tree Protocol
+The spanning tree protocol is also known as STP. 
+It is a protocol that monitors the overall performance of the network. 
+The main task of the spanning tree protocol is to remove the redundant links.
+This protocol uses the Spanning tree algorithm (STA), which is used to detect the redundant link. 
+The STA maintains the topology database that is used to find the redundant links. 
+If the redundant link is found, then the link gets disabled. Once the redundant links are removed, then only those links will remain active which are chosen by the STA. If a new link is added or some existing link is removed, then the STA will be re-executed to adjust the changes.
+
+Before understanding the spanning tree protocol, we first looked at the complete graph and spanning tree.
+
+A complete graph is a graph in which a line connects each pair of vertices. In other words, we can say that all the points are connected by a maximum number of lines. In computer networking, the complete graph can also be said as a fully meshed network.
